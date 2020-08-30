@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="SupplyContract_RL">
+    <sch:name>SupplyContract_RL</sch:name>
+    <sch:pageNumber></sch:pageNumber>
+    <sch:pageType>Custom</sch:pageType>
+    <sch:pageCondition></sch:pageCondition>
+    <sch:title></sch:title>
+    <sch:seqNumber>0</sch:seqNumber>
+    <sch:tableName>SupplyContract</sch:tableName>
+    <sch:quoteDisplay>false</sch:quoteDisplay>
+    <sch:labelColWidth>0</sch:labelColWidth>
+    <sch:valueColWidth>0</sch:valueColWidth>
+    <sch:numberOfColumns>0</sch:numberOfColumns>
+    <sch:defaultSort></sch:defaultSort>
+    <sch:defaultDir></sch:defaultDir>
+    <sch:labelOrientation>Horizontal</sch:labelOrientation>
+    <sch:relatedRule></sch:relatedRule>
+    <sch:displayResource></sch:displayResource>
+    <sch:modifyResource></sch:modifyResource>
+    <sch:displayResource2></sch:displayResource2>
+    <sch:modifyResource2></sch:modifyResource2>
+    <sch:prevPage></sch:prevPage>
+    <sch:nextPage></sch:nextPage>
+    <sch:path></sch:path>
+    <sch:description></sch:description>
+    <sch:clientSideController>{
+  "pages" : [ {
+    "pageName" : "HomePage",
+    "pagePath" : "/home",
+    "children" : [ 
+    {
+       "type":"CancelAnchor",
+       "variant":"default",
+       "children":[
+
+       ],
+       "namespace":"KK",
+       "props":{
+          "anchorPage":"/p/SupplyContract_RL"
+       }
+    },
+    {
+      "type" : "PageTitle",
+      "variant" : "default",
+      "children" : [ 
+      ],
+      "namespace":"KK",
+      "props":{
+          "title":"Manage SupplyContract",
+          "showBorder":true
+      }
+    },
+    {
+      "type" : "ObjectSearch",
+      "variant" : "default",
+      "children" : [ 
+      
+      
+      
+      ],
+      "namespace" : "KK",
+      "props" : {
+        "saveInto" : "searchFilter",
+        "objectType" : "SupplyContract"
+      }
+    },
+    {
+      "type" : "SectionTitle",
+      "variant" : "default",
+      "children" : [ 
+      ],
+      "namespace":"KK",
+      "props":{
+          "title":"Search Results",
+          "showBorder":true
+      }
+    },
+    {
+      "type" : "ObjectGrid",
+      "variant" : "default",
+      "children" : [ 
+      
+      
+	      {
+	      "type" : "GridColumn",
+	      "variant" : "default",
+	      "children" : [	      
+	      ],
+	      "namespace" : "KK",
+	      "props" : {
+	        "name" : "pp",
+	        "key" : "pp",
+	        "label" : "null"
+	      }
+	    }
+	    
+	  
+      
+      ],
+      "namespace" : "KK",
+      "props" : {
+        "dataSource" : "Entity",
+        "selectionMode" : "Multiple",
+        "objectType" : "SupplyContract",
+        "searchFilter" : "=context.getVar('searchFilter')"
+      }
+    } ]
+  } ]
+}</sch:clientSideController>
+    <sch:serverSideController></sch:serverSideController>
+    <sch:objectType isRef="true">SupplyContract</sch:objectType>
+    <sch:fields/>
+    <sch:variables/>
+    <sch:treeNodes/>
+    <sch:buttons/>
+</sch:PageDefinition>
