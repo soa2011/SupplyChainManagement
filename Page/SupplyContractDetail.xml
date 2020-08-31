@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="SupplyChainManagement Snapshot Collapse">
-    <sch:name>SupplyChainManagement Snapshot Collapse</sch:name>
+<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="SupplyContractDetail">
+    <sch:name>SupplyContractDetail</sch:name>
     <sch:pageNumber></sch:pageNumber>
-    <sch:pageType>Summary</sch:pageType>
+    <sch:pageType>Detail</sch:pageType>
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
     <sch:seqNumber>0</sch:seqNumber>
-    <sch:tableName>SupplyChainManagement</sch:tableName>
+    <sch:tableName>SupplyContract</sch:tableName>
     <sch:quoteDisplay>false</sch:quoteDisplay>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
@@ -25,10 +25,10 @@
     <sch:description></sch:description>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
-    <sch:objectType isRef="true">SupplyChainManagement</sch:objectType>
+    <sch:objectType isRef="true">SupplyContract</sch:objectType>
     <sch:fields>
         <sch:BmfPageField>
-            <sch:name>Name</sch:name>
+            <sch:name>pp</sch:name>
             <sch:seqNumber>0</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
@@ -36,7 +36,7 @@
             <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>Name</sch:label>
+            <sch:label>MC.SupplyContract.pp</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>

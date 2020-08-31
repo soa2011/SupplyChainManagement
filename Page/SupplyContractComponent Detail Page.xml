@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="SupplyChainManagement Snapshot Collapse">
-    <sch:name>SupplyChainManagement Snapshot Collapse</sch:name>
+<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="SupplyContractComponent Detail Page">
+    <sch:name>SupplyContractComponent Detail Page</sch:name>
     <sch:pageNumber></sch:pageNumber>
-    <sch:pageType>Summary</sch:pageType>
+    <sch:pageType>Detail</sch:pageType>
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
     <sch:seqNumber>0</sch:seqNumber>
-    <sch:tableName>SupplyChainManagement</sch:tableName>
+    <sch:tableName>SupplyContractComponent</sch:tableName>
     <sch:quoteDisplay>false</sch:quoteDisplay>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
@@ -22,21 +22,21 @@
     <sch:prevPage></sch:prevPage>
     <sch:nextPage></sch:nextPage>
     <sch:path></sch:path>
-    <sch:description></sch:description>
+    <sch:description>Default Detail Page</sch:description>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
-    <sch:objectType isRef="true">SupplyChainManagement</sch:objectType>
+    <sch:objectType isRef="true">SupplyContractComponent</sch:objectType>
     <sch:fields>
         <sch:BmfPageField>
-            <sch:name>Name</sch:name>
-            <sch:seqNumber>0</sch:seqNumber>
+            <sch:name>name</sch:name>
+            <sch:seqNumber>1</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
-            <sch:pageAreaName>DefArea</sch:pageAreaName>
-            <sch:fieldType>Text</sch:fieldType>
+            <sch:pageAreaName></sch:pageAreaName>
+            <sch:fieldType>Edit</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>Name</sch:label>
+            <sch:label>name</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>

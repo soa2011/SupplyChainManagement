@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="SupplyContract">
+    <sch:name>SupplyContract</sch:name>
+    <sch:tableType>undefined</sch:tableType>
+    <sch:archeType>NORMAL</sch:archeType>
+    <sch:parentTypeName></sch:parentTypeName>
+    <sch:superTypeName></sch:superTypeName>
+    <sch:accessMode>TableDirect</sch:accessMode>
+    <sch:primaryField></sch:primaryField>
+    <sch:primaryKey></sch:primaryKey>
+    <sch:description></sch:description>
+    <sch:bmfRelationships>
+        <sch:BmfObjectRelationship>
+            <sch:type>REF_TO_MANY</sch:type>
+            <sch:name></sch:name>
+            <sch:displayName></sch:displayName>
+            <sch:description></sch:description>
+            <sch:relatedObjectType>SupplyContract</sch:relatedObjectType>
+            <sch:joinField></sch:joinField>
+            <sch:lowerBound>0</sch:lowerBound>
+            <sch:upperBound>1</sch:upperBound>
+            <sch:containment>false</sch:containment>
+        </sch:BmfObjectRelationship>
+    </sch:bmfRelationships>
+    <sch:bmfFields>
+        <sch:BmfObjectField>
+            <sch:name>pp</sch:name>
+            <sch:dataType>Integer</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length>0</sch:length>
+            <sch:scale>0</sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+        </sch:BmfObjectField>
+    </sch:bmfFields>
+    <sch:bmfRules/>
+</sch:ObjectType>
