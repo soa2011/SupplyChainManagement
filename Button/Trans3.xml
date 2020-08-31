@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:Button xmlns:sch="http://Baf.com/schemas" name="Trans3">
+    <sch:seqIndex>0</sch:seqIndex>
+    <sch:name>Trans3</sch:name>
+    <sch:label>Trans3</sch:label>
+    <sch:behavior>ExecuteMethod</sch:behavior>
+    <sch:bmfTransactionName>Trans3</sch:bmfTransactionName>
+    <sch:content></sch:content>
+    <sch:appliesTo></sch:appliesTo>
+    <sch:securityToken></sch:securityToken>
+    <sch:description></sch:description>
+    <sch:bmfTransaction isRef="true">Trans3</sch:bmfTransaction>
+</sch:Button>
