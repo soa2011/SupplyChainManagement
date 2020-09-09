@@ -35,7 +35,7 @@
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
-            <sch:refTargetType>OrgClient</sch:refTargetType>
+            <sch:refTargetType>Client</sch:refTargetType>
             <sch:label>OrgClientId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
@@ -135,7 +135,7 @@
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
-            <sch:refTargetType>ScmSupplier</sch:refTargetType>
+            <sch:refTargetType>Client</sch:refTargetType>
             <sch:label>ScmSupplier</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
@@ -185,7 +185,7 @@
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
-            <sch:refTargetType>ScmWarehouse</sch:refTargetType>
+            <sch:refTargetType>OrgUnit</sch:refTargetType>
             <sch:label>ScmWarehouse</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>

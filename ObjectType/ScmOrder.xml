@@ -26,7 +26,7 @@
             <sch:name>OrgClientId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>OrgClient</sch:relatedObjectType>
+            <sch:relatedObjectType>Client</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -37,7 +37,7 @@
             <sch:name>ScmSupplierId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>ScmSupplier</sch:relatedObjectType>
+            <sch:relatedObjectType>Client</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -48,7 +48,7 @@
             <sch:name>ScmWarehouseId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>ScmWarehouse</sch:relatedObjectType>
+            <sch:relatedObjectType>OrgUnit</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -59,7 +59,7 @@
             <sch:name>PurchaserId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>Purchaser</sch:relatedObjectType>
+            <sch:relatedObjectType>Client</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
