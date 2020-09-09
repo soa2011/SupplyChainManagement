@@ -243,7 +243,7 @@
             <sch:ruleType>Rule</sch:ruleType>
             <sch:ruleCode></sch:ruleCode>
             <sch:ruleLanguage>Groovy</sch:ruleLanguage>
-            <sch:ruleBody>data.DocNum + data.Status</sch:ruleBody>
+            <sch:ruleBody>data.get('DocNum') + data.get('Status')</sch:ruleBody>
             <sch:seqNumber>2</sch:seqNumber>
             <sch:description>数量必须大于0</sch:description>
         </sch:BmfRule>
