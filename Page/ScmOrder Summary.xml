@@ -5,15 +5,15 @@
     <sch:pageType>Summary</sch:pageType>
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
-    <sch:seqNumber>0</sch:seqNumber>
+    <sch:seqNumber>400</sch:seqNumber>
     <sch:tableName>ScmOrder</sch:tableName>
     <sch:quoteDisplay>false</sch:quoteDisplay>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
     <sch:numberOfColumns>0</sch:numberOfColumns>
-    <sch:defaultSort></sch:defaultSort>
+    <sch:defaultSort>CreatedOn DESC</sch:defaultSort>
     <sch:defaultDir></sch:defaultDir>
-    <sch:labelOrientation>Horizontal</sch:labelOrientation>
+    <sch:labelOrientation></sch:labelOrientation>
     <sch:relatedRule></sch:relatedRule>
     <sch:displayResource></sch:displayResource>
     <sch:modifyResource></sch:modifyResource>
@@ -29,10 +29,10 @@
     <sch:fields>
         <sch:BmfPageField>
             <sch:name>OrgClientId</sch:name>
-            <sch:seqNumber>0</sch:seqNumber>
+            <sch:seqNumber>10</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
-            <sch:pageAreaName>DefArea</sch:pageAreaName>
+            <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
@@ -50,8 +50,8 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
@@ -79,10 +79,10 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>DocNum</sch:name>
-            <sch:seqNumber>0</sch:seqNumber>
+            <sch:seqNumber>100</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
-            <sch:pageAreaName>DefArea</sch:pageAreaName>
+            <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
@@ -100,8 +100,8 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
@@ -129,10 +129,10 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>ScmSupplierId</sch:name>
-            <sch:seqNumber>0</sch:seqNumber>
+            <sch:seqNumber>150</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
-            <sch:pageAreaName>DefArea</sch:pageAreaName>
+            <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
@@ -150,8 +150,8 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
@@ -179,10 +179,10 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>ScmWarehouseId</sch:name>
-            <sch:seqNumber>0</sch:seqNumber>
+            <sch:seqNumber>160</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
-            <sch:pageAreaName>DefArea</sch:pageAreaName>
+            <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
@@ -200,8 +200,8 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
@@ -229,10 +229,10 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>PurchaserId</sch:name>
-            <sch:seqNumber>0</sch:seqNumber>
+            <sch:seqNumber>180</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
-            <sch:pageAreaName>DefArea</sch:pageAreaName>
+            <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
@@ -251,7 +251,7 @@
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
             <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
@@ -279,10 +279,10 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Status</sch:name>
-            <sch:seqNumber>0</sch:seqNumber>
+            <sch:seqNumber>200</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
-            <sch:pageAreaName>DefArea</sch:pageAreaName>
+            <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
@@ -300,8 +300,8 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
@@ -329,10 +329,10 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>CreatedOn</sch:name>
-            <sch:seqNumber>0</sch:seqNumber>
+            <sch:seqNumber>600</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
-            <sch:pageAreaName>DefArea</sch:pageAreaName>
+            <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
@@ -351,7 +351,7 @@
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
             <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
@@ -379,10 +379,10 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Description</sch:name>
-            <sch:seqNumber>0</sch:seqNumber>
+            <sch:seqNumber>800</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
-            <sch:pageAreaName>DefArea</sch:pageAreaName>
+            <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
@@ -400,8 +400,8 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
@@ -429,10 +429,10 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Discount</sch:name>
-            <sch:seqNumber>0</sch:seqNumber>
+            <sch:seqNumber>650</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
-            <sch:pageAreaName>DefArea</sch:pageAreaName>
+            <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
@@ -451,7 +451,7 @@
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
             <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
@@ -479,10 +479,10 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Amount</sch:name>
-            <sch:seqNumber>0</sch:seqNumber>
+            <sch:seqNumber>750</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
-            <sch:pageAreaName>DefArea</sch:pageAreaName>
+            <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
@@ -500,8 +500,8 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
             <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
@@ -530,5 +530,15 @@
     </sch:fields>
     <sch:variables/>
     <sch:treeNodes/>
-    <sch:buttons/>
+    <sch:buttons>
+        <sch:BmfPageButton>
+            <sch:seqNumber>2400</sch:seqNumber>
+            <sch:buttonName>Post</sch:buttonName>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:description></sch:description>
+            <sch:showButton>true</sch:showButton>
+            <sch:eventHandler></sch:eventHandler>
+        </sch:BmfPageButton>
+    </sch:buttons>
 </sch:PageDefinition>

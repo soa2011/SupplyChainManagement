@@ -28,7 +28,7 @@
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>128</sch:length>
-            <sch:scale>0</sch:scale>
+            <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
@@ -41,8 +41,8 @@
             <sch:name>Quantity</sch:name>
             <sch:dataType>Integer</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length>0</sch:length>
-            <sch:scale>0</sch:scale>
+            <sch:length></sch:length>
+            <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
@@ -56,7 +56,7 @@
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>256</sch:length>
-            <sch:scale>0</sch:scale>
+            <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
@@ -70,7 +70,7 @@
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>256</sch:length>
-            <sch:scale>0</sch:scale>
+            <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
@@ -83,8 +83,8 @@
             <sch:name>EventTime</sch:name>
             <sch:dataType>DateTime</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length>0</sch:length>
-            <sch:scale>0</sch:scale>
+            <sch:length></sch:length>
+            <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
@@ -98,7 +98,7 @@
             <sch:dataType>Decimal</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>10</sch:length>
-            <sch:scale>0</sch:scale>
+            <sch:scale>2</sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
@@ -112,7 +112,7 @@
             <sch:dataType>Decimal</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>10</sch:length>
-            <sch:scale>0</sch:scale>
+            <sch:scale>2</sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
@@ -126,7 +126,7 @@
             <sch:dataType>Decimal</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>10</sch:length>
-            <sch:scale>0</sch:scale>
+            <sch:scale>2</sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
@@ -139,8 +139,8 @@
             <sch:name>Duration</sch:name>
             <sch:dataType>Integer</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length>0</sch:length>
-            <sch:scale>0</sch:scale>
+            <sch:length></sch:length>
+            <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
@@ -154,7 +154,7 @@
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>64</sch:length>
-            <sch:scale>0</sch:scale>
+            <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
@@ -167,8 +167,8 @@
             <sch:name>CreatedBy</sch:name>
             <sch:dataType>OID</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length>0</sch:length>
-            <sch:scale>0</sch:scale>
+            <sch:length></sch:length>
+            <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
@@ -181,8 +181,8 @@
             <sch:name>CreatedOn</sch:name>
             <sch:dataType>DateTime</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length>0</sch:length>
-            <sch:scale>0</sch:scale>
+            <sch:length></sch:length>
+            <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
@@ -195,8 +195,8 @@
             <sch:name>UpdatedBy</sch:name>
             <sch:dataType>OID</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length>0</sch:length>
-            <sch:scale>0</sch:scale>
+            <sch:length></sch:length>
+            <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
@@ -209,8 +209,8 @@
             <sch:name>UpdatedOn</sch:name>
             <sch:dataType>DateTime</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length>0</sch:length>
-            <sch:scale>0</sch:scale>
+            <sch:length></sch:length>
+            <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
