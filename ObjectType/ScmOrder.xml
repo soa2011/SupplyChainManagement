@@ -84,7 +84,7 @@
         <sch:BmfObjectField>
             <sch:name>Status</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName></sch:enumName>
+            <sch:enumName>OrderStatus</sch:enumName>
             <sch:length>64</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
@@ -248,4 +248,5 @@
             <sch:description>数量必须大于0</sch:description>
         </sch:BmfRule>
     </sch:bmfRules>
+    <sch:bmfIndexRules/>
 </sch:ObjectType>
