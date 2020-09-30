@@ -76,6 +76,26 @@
             <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>ScmOrderSchema</sch:tableName>
+            <sch:type>Collection</sch:type>
+            <sch:seqIndex>3000</sch:seqIndex>
+            <sch:format>订货方案(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>true</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
+        <sch:BmfTreeNode>
+            <sch:tableName>ScmOrderSchema</sch:tableName>
+            <sch:type>Item</sch:type>
+            <sch:seqIndex>3000</sch:seqIndex>
+            <sch:format>%s</sch:format>
+            <sch:columns>DocNum</sch:columns>
+            <sch:action></sch:action>
+            <sch:quoteDisplay>false</sch:quoteDisplay>
+            <sch:description></sch:description>
+        </sch:BmfTreeNode>
     </sch:treeNodes>
     <sch:buttons/>
 </sch:PageDefinition>

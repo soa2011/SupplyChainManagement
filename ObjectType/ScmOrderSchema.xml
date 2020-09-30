@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="ScmOrder">
-    <sch:name>ScmOrder</sch:name>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="ScmOrderSchema">
+    <sch:name>ScmOrderSchema</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
     <sch:parentTypeName>SupplyChainManagement</sch:parentTypeName>
@@ -11,22 +11,11 @@
     <sch:description></sch:description>
     <sch:bmfRelationships>
         <sch:BmfObjectRelationship>
-            <sch:type>REF_TO_MANY</sch:type>
-            <sch:name>ScmOrderLine</sch:name>
-            <sch:displayName></sch:displayName>
-            <sch:description></sch:description>
-            <sch:relatedObjectType>ScmOrderLine</sch:relatedObjectType>
-            <sch:joinField></sch:joinField>
-            <sch:lowerBound>0</sch:lowerBound>
-            <sch:upperBound>-1</sch:upperBound>
-            <sch:containment>false</sch:containment>
-        </sch:BmfObjectRelationship>
-        <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>OrderSchemaId</sch:name>
+            <sch:name>AgreementSpecId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>ScmOrderSchema</sch:relatedObjectType>
+            <sch:relatedObjectType>AgreementSpec</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -68,7 +57,7 @@
     </sch:bmfRelationships>
     <sch:bmfFields>
         <sch:BmfObjectField>
-            <sch:name>DocNum</sch:name>
+            <sch:name>Name</sch:name>
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>64</sch:length>
@@ -77,7 +66,7 @@
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
             <sch:seqStart>1</sch:seqStart>
-            <sch:seqPattern>{YYYY}{MM}{DD}-{000}</sch:seqPattern>
+            <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
         </sch:BmfObjectField>
@@ -222,31 +211,6 @@
             <sch:description></sch:description>
         </sch:BmfObjectField>
     </sch:bmfFields>
-    <sch:bmfRules>
-        <sch:BmfRule>
-            <sch:name>ScmOrder</sch:name>
-            <sch:objectTypeName>ScmOrder</sch:objectTypeName>
-            <sch:referenceName></sch:referenceName>
-            <sch:fieldName></sch:fieldName>
-            <sch:ruleType>OnChange</sch:ruleType>
-            <sch:ruleCode></sch:ruleCode>
-            <sch:ruleLanguage></sch:ruleLanguage>
-            <sch:ruleBody>// context.get("Quantity") > 0</sch:ruleBody>
-            <sch:seqNumber>1</sch:seqNumber>
-            <sch:description></sch:description>
-        </sch:BmfRule>
-        <sch:BmfRule>
-            <sch:name>CalcDesc</sch:name>
-            <sch:objectTypeName>ScmOrder</sch:objectTypeName>
-            <sch:referenceName></sch:referenceName>
-            <sch:fieldName></sch:fieldName>
-            <sch:ruleType>Rule</sch:ruleType>
-            <sch:ruleCode></sch:ruleCode>
-            <sch:ruleLanguage>Groovy</sch:ruleLanguage>
-            <sch:ruleBody>data.get('DocNum') + data.get('Status')</sch:ruleBody>
-            <sch:seqNumber>2</sch:seqNumber>
-            <sch:description>数量必须大于0</sch:description>
-        </sch:BmfRule>
-    </sch:bmfRules>
+    <sch:bmfRules/>
     <sch:bmfIndexRules/>
 </sch:ObjectType>

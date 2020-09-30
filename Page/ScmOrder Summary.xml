@@ -26,14 +26,14 @@
     <sch:objectType isRef="true">ScmOrder</sch:objectType>
     <sch:fields>
         <sch:BmfPageField>
-            <sch:name>OrgClientId</sch:name>
+            <sch:name>OrderSchemaId</sch:name>
             <sch:seqNumber>10</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>OrgClientId</sch:label>
+            <sch:label>OrderSchemaId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
