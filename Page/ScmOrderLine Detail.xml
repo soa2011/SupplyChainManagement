@@ -236,8 +236,8 @@
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
             <sch:mask></sch:mask>
-            <sch:relatedFields></sch:relatedFields>
-            <sch:relatedRules></sch:relatedRules>
+            <sch:relatedFields>ProductItemId</sch:relatedFields>
+            <sch:relatedRules>groovy:ProductItemId.get('Price')</sch:relatedRules>
             <sch:helpText></sch:helpText>
             <sch:help></sch:help>
             <sch:width>0</sch:width>
@@ -334,8 +334,8 @@
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
             <sch:mask></sch:mask>
-            <sch:relatedFields></sch:relatedFields>
-            <sch:relatedRules></sch:relatedRules>
+            <sch:relatedFields>Quantity,Price</sch:relatedFields>
+            <sch:relatedRules>groovy:Quantity * Price</sch:relatedRules>
             <sch:helpText></sch:helpText>
             <sch:help></sch:help>
             <sch:width>60</sch:width>
