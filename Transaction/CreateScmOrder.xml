@@ -5,7 +5,7 @@
     <sch:businessName></sch:businessName>
     <sch:label>CreateScmOrder</sch:label>
     <sch:logicType>Groovy</sch:logicType>
-    <sch:methodBody>purchaseManager.createScmOrder(request,context)</sch:methodBody>
+    <sch:methodBody>scmManager.createScmOrder(request,context)</sch:methodBody>
     <sch:processDefinition></sch:processDefinition>
     <sch:newStatus></sch:newStatus>
     <sch:versionMode>New Version</sch:versionMode>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="ScmOrder">
-    <sch:name>ScmOrder</sch:name>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="ScmPackageItem">
+    <sch:name>ScmPackageItem</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
-    <sch:parentTypeName>SupplyChainManagement</sch:parentTypeName>
+    <sch:parentTypeName>ScmPackage</sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
     <sch:primaryField></sch:primaryField>
@@ -17,22 +17,11 @@
     <sch:changeFields></sch:changeFields>
     <sch:bmfRelationships>
         <sch:BmfObjectRelationship>
-            <sch:type>REF_TO_MANY</sch:type>
-            <sch:name>ScmOrderLine</sch:name>
-            <sch:displayName></sch:displayName>
-            <sch:description></sch:description>
-            <sch:relatedObjectType>ScmOrderLine</sch:relatedObjectType>
-            <sch:joinField></sch:joinField>
-            <sch:lowerBound>0</sch:lowerBound>
-            <sch:upperBound>-1</sch:upperBound>
-            <sch:containment>false</sch:containment>
-        </sch:BmfObjectRelationship>
-        <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>OrderSchemaId</sch:name>
+            <sch:name>ProductCategoryId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>ScmOrderSchema</sch:relatedObjectType>
+            <sch:relatedObjectType>ProductCategory</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -40,10 +29,10 @@
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>ScmSupplierId</sch:name>
+            <sch:name>ProductItemId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>Client</sch:relatedObjectType>
+            <sch:relatedObjectType>ProductItem</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -51,18 +40,7 @@
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>ScmWarehouseId</sch:name>
-            <sch:displayName></sch:displayName>
-            <sch:description></sch:description>
-            <sch:relatedObjectType>OrgUnit</sch:relatedObjectType>
-            <sch:joinField></sch:joinField>
-            <sch:lowerBound>0</sch:lowerBound>
-            <sch:upperBound>1</sch:upperBound>
-            <sch:containment>false</sch:containment>
-        </sch:BmfObjectRelationship>
-        <sch:BmfObjectRelationship>
-            <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>PurchaserId</sch:name>
+            <sch:name>ScmPackageId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
             <sch:relatedObjectType>Client</sch:relatedObjectType>
@@ -74,26 +52,10 @@
     </sch:bmfRelationships>
     <sch:bmfFields>
         <sch:BmfObjectField>
-            <sch:name>DocNum</sch:name>
+            <sch:name>Type</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName></sch:enumName>
-            <sch:length>64</sch:length>
-            <sch:scale></sch:scale>
-            <sch:autoIncrement>false</sch:autoIncrement>
-            <sch:calculated>false</sch:calculated>
-            <sch:encrypted>false</sch:encrypted>
-            <sch:seqStart>1</sch:seqStart>
-            <sch:seqPattern>{YYYY}{MM}{DD}-{000}</sch:seqPattern>
-            <sch:calcExpr></sch:calcExpr>
-            <sch:description></sch:description>
-            <sch:changeType></sch:changeType>
-            <sch:changeFields></sch:changeFields>
-        </sch:BmfObjectField>
-        <sch:BmfObjectField>
-            <sch:name>Status</sch:name>
-            <sch:dataType>Char</sch:dataType>
-            <sch:enumName>OrderStatus</sch:enumName>
-            <sch:length>64</sch:length>
+            <sch:enumName>ScmPackageItemType</sch:enumName>
+            <sch:length>128</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
@@ -106,11 +68,75 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>Description</sch:name>
+            <sch:name>Quantity</sch:name>
+            <sch:dataType>Integer</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length></sch:length>
+            <sch:scale></sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>PickMode</sch:name>
+            <sch:dataType>Char</sch:dataType>
+            <sch:enumName>PickMode</sch:enumName>
+            <sch:length>256</sch:length>
+            <sch:scale></sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>ToBinCode</sch:name>
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length>4000</sch:length>
+            <sch:length>256</sch:length>
             <sch:scale></sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>EventTime</sch:name>
+            <sch:dataType>DateTime</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length></sch:length>
+            <sch:scale></sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>Price</sch:name>
+            <sch:dataType>Decimal</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length>10</sch:length>
+            <sch:scale>2</sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
@@ -154,10 +180,10 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>ErrorMessage</sch:name>
-            <sch:dataType>Char</sch:dataType>
+            <sch:name>MinOccurs</sch:name>
+            <sch:dataType>Integer</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length>4000</sch:length>
+            <sch:length></sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
@@ -170,7 +196,7 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>Duration</sch:name>
+            <sch:name>MaxOccurs</sch:name>
             <sch:dataType>Integer</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length></sch:length>
@@ -250,32 +276,7 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
     </sch:bmfFields>
-    <sch:bmfRules>
-        <sch:BmfRule>
-            <sch:name>ScmOrder</sch:name>
-            <sch:objectTypeName>ScmOrder</sch:objectTypeName>
-            <sch:referenceName></sch:referenceName>
-            <sch:fieldName></sch:fieldName>
-            <sch:ruleType>OnChange</sch:ruleType>
-            <sch:ruleCode></sch:ruleCode>
-            <sch:ruleLanguage>Groovy</sch:ruleLanguage>
-            <sch:ruleBody>// context.get("Quantity") > 0</sch:ruleBody>
-            <sch:seqNumber>1</sch:seqNumber>
-            <sch:description></sch:description>
-        </sch:BmfRule>
-        <sch:BmfRule>
-            <sch:name>CalcDesc</sch:name>
-            <sch:objectTypeName>ScmOrder</sch:objectTypeName>
-            <sch:referenceName></sch:referenceName>
-            <sch:fieldName></sch:fieldName>
-            <sch:ruleType>Rule</sch:ruleType>
-            <sch:ruleCode></sch:ruleCode>
-            <sch:ruleLanguage></sch:ruleLanguage>
-            <sch:ruleBody>data.get('DocNum') + data.get('Status')</sch:ruleBody>
-            <sch:seqNumber>2</sch:seqNumber>
-            <sch:description>数量必须大于0</sch:description>
-        </sch:BmfRule>
-    </sch:bmfRules>
+    <sch:bmfRules/>
     <sch:bmfIndexRules/>
     <sch:objectTypeConfigs/>
 </sch:ObjectType>

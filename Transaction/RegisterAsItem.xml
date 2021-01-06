@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:Transaction xmlns:sch="http://Baf.com/schemas" name="CreatePurchaseReceipt">
+<sch:Transaction xmlns:sch="http://Baf.com/schemas" name="RegisterAsItem">
     <sch:seqIndex>0</sch:seqIndex>
-    <sch:name>CreatePurchaseReceipt</sch:name>
+    <sch:name>RegisterAsItem</sch:name>
     <sch:businessName></sch:businessName>
-    <sch:label>生成采购入库单</sch:label>
+    <sch:label>RegisterAsItem</sch:label>
     <sch:logicType>Groovy</sch:logicType>
-    <sch:methodBody>purchaseManager.createPurchaseReceipt(request,context)</sch:methodBody>
+    <sch:methodBody>scmManager.registerAsItem(request,context)</sch:methodBody>
     <sch:processDefinition></sch:processDefinition>
     <sch:newStatus></sch:newStatus>
     <sch:versionMode>New Version</sch:versionMode>

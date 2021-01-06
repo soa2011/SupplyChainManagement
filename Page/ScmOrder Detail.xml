@@ -6,8 +6,8 @@
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
     <sch:seqNumber>500</sch:seqNumber>
-    <sch:tableName>ScmOrder</sch:tableName>
-    <sch:quoteDisplay>false</sch:quoteDisplay>
+    <sch:objectTypeName>ScmOrder</sch:objectTypeName>
+    <sch:display>false</sch:display>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
     <sch:numberOfColumns>0</sch:numberOfColumns>
@@ -21,9 +21,12 @@
     <sch:modifyResource2></sch:modifyResource2>
     <sch:path></sch:path>
     <sch:description></sch:description>
+    <sch:changeType></sch:changeType>
+    <sch:changeFields></sch:changeFields>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
     <sch:objectType isRef="true">ScmOrder</sch:objectType>
+    <sch:pageAreas/>
     <sch:fields>
         <sch:BmfPageField>
             <sch:name>OrderSchemaId</sch:name>
@@ -32,6 +35,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType>ScmOrderSchema</sch:refTargetType>
             <sch:label>OrderSchemaId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -73,6 +77,10 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectType></sch:anchorObjectType>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>DocNum</sch:name>
@@ -81,6 +89,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>采购单ID</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -122,6 +131,10 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectType></sch:anchorObjectType>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>ScmSupplierId</sch:name>
@@ -130,6 +143,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType>Client</sch:refTargetType>
             <sch:label>ScmSupplier</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -171,6 +185,10 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectType></sch:anchorObjectType>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>ScmWarehouseId</sch:name>
@@ -179,6 +197,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType>OrgUnit</sch:refTargetType>
             <sch:label>ScmWarehouse</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -220,6 +239,10 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectType></sch:anchorObjectType>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>PurchaserId</sch:name>
@@ -228,6 +251,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType>Client</sch:refTargetType>
             <sch:label>Purchaser</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -269,6 +293,10 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectType></sch:anchorObjectType>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Status</sch:name>
@@ -277,6 +305,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Select</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Status</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -318,6 +347,10 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectType></sch:anchorObjectType>
             <sch:bmfDomain isRef="true">OrderStatus</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
@@ -327,6 +360,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>TextArea</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Description</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -368,6 +402,10 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectType></sch:anchorObjectType>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Discount</sch:name>
@@ -376,6 +414,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Discount</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -417,6 +456,10 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectType></sch:anchorObjectType>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Amount</sch:name>
@@ -425,6 +468,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Amount</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -466,6 +510,10 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectType></sch:anchorObjectType>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>CreatedOn</sch:name>
@@ -474,6 +522,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>CreatedOn</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -515,6 +564,10 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectType></sch:anchorObjectType>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>ScmOrderLine</sch:name>
@@ -523,6 +576,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>DataTable</sch:fieldType>
+            <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Lines</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -564,6 +618,10 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
+            <sch:dataSourceType></sch:dataSourceType>
+            <sch:anchorObjectType></sch:anchorObjectType>
         </sch:BmfPageField>
     </sch:fields>
     <sch:variables/>
@@ -571,13 +629,13 @@
     <sch:buttons>
         <sch:BmfPageButton>
             <sch:seqNumber>2400</sch:seqNumber>
-            <sch:buttonName>CreatePurchaseReceipt</sch:buttonName>
+            <sch:buttonName>RegisterAsItem</sch:buttonName>
             <sch:displayCondition></sch:displayCondition>
             <sch:displayResource></sch:displayResource>
             <sch:description></sch:description>
             <sch:showButton>true</sch:showButton>
             <sch:eventHandler></sch:eventHandler>
-            <sch:bmfButton isRef="true">CreatePurchaseReceipt</sch:bmfButton>
+            <sch:bmfButton isRef="true">RegisterAsItem</sch:bmfButton>
         </sch:BmfPageButton>
     </sch:buttons>
 </sch:PageDefinition>
