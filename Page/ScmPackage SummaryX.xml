@@ -80,7 +80,7 @@
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
             <sch:dataSourceType>Entity</sch:dataSourceType>
-            <sch:anchorObjectType>ScmPackage</sch:anchorObjectType>
+            <sch:anchorObjectTypeName>ScmPackage</sch:anchorObjectTypeName>
         </sch:BmfPageField>
     </sch:fields>
     <sch:variables/>

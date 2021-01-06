@@ -80,7 +80,7 @@
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
             <sch:dataSourceType>Entity</sch:dataSourceType>
-            <sch:anchorObjectType>SCMAdminActivity</sch:anchorObjectType>
+            <sch:anchorObjectTypeName>SCMAdminActivity</sch:anchorObjectTypeName>
         </sch:BmfPageField>
     </sch:fields>
     <sch:variables/>

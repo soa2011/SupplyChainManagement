@@ -80,7 +80,7 @@
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
             <sch:dataSourceType></sch:dataSourceType>
-            <sch:anchorObjectType></sch:anchorObjectType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
         </sch:BmfPageField>
     </sch:fields>
     <sch:variables/>

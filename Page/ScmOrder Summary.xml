@@ -80,7 +80,7 @@
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
             <sch:dataSourceType></sch:dataSourceType>
-            <sch:anchorObjectType></sch:anchorObjectType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>DocNum</sch:name>
@@ -134,7 +134,7 @@
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
             <sch:dataSourceType></sch:dataSourceType>
-            <sch:anchorObjectType></sch:anchorObjectType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>ScmSupplierId</sch:name>
@@ -188,7 +188,7 @@
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
             <sch:dataSourceType></sch:dataSourceType>
-            <sch:anchorObjectType></sch:anchorObjectType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>ScmWarehouseId</sch:name>
@@ -242,7 +242,7 @@
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
             <sch:dataSourceType></sch:dataSourceType>
-            <sch:anchorObjectType></sch:anchorObjectType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>PurchaserId</sch:name>
@@ -296,7 +296,7 @@
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
             <sch:dataSourceType></sch:dataSourceType>
-            <sch:anchorObjectType></sch:anchorObjectType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Status</sch:name>
@@ -350,7 +350,7 @@
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
             <sch:dataSourceType></sch:dataSourceType>
-            <sch:anchorObjectType></sch:anchorObjectType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Description</sch:name>
@@ -404,7 +404,7 @@
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
             <sch:dataSourceType></sch:dataSourceType>
-            <sch:anchorObjectType></sch:anchorObjectType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Discount</sch:name>
@@ -458,7 +458,7 @@
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
             <sch:dataSourceType></sch:dataSourceType>
-            <sch:anchorObjectType></sch:anchorObjectType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Amount</sch:name>
@@ -512,7 +512,7 @@
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
             <sch:dataSourceType></sch:dataSourceType>
-            <sch:anchorObjectType></sch:anchorObjectType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>UpdatedOn</sch:name>
@@ -566,7 +566,7 @@
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
             <sch:dataSourceType></sch:dataSourceType>
-            <sch:anchorObjectType></sch:anchorObjectType>
+            <sch:anchorObjectTypeName></sch:anchorObjectTypeName>
         </sch:BmfPageField>
     </sch:fields>
     <sch:variables/>
