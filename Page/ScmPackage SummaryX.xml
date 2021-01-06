@@ -29,7 +29,7 @@
     <sch:pageAreas/>
     <sch:fields>
         <sch:BmfPageField>
-            <sch:name></sch:name>
+            <sch:name>Grid</sch:name>
             <sch:seqNumber>0</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
@@ -37,7 +37,7 @@
             <sch:fieldType></sch:fieldType>
             <sch:widgetType>DataGrid</sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label></sch:label>
+            <sch:label>Grid</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
