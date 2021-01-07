@@ -79,6 +79,7 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
+            <sch:props></sch:props>
             <sch:dataSourceType>Entity</sch:dataSourceType>
             <sch:anchorObjectTypeName>ScmOrder</sch:anchorObjectTypeName>
             <sch:anchorObjectType isRef="true">ScmOrder</sch:anchorObjectType>
